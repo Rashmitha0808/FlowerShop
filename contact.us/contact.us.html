@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <header>
+            <div class="logo">
+                <a href="../inde.html">
+                    <img src="/img/logo.png" width="200px" alt="logo">
+                </a>
+            </div> <!--logo-->
+
+            <div class="search">
+                <form>
+                    <input type="search" name="s" placeholder="search site...">
+                    <!--  placeholder="search site... which will show inside the search bar -->
+                    <input type="submit" value=">">
+                </form>
+            </div>
+            <div class="clearfix"></div> <!--here the cf will clear all other contents moving up to the upper level-->
+
+            <nav class="main-menu">
+                <!-- navigation bar -->
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../about.us.html">About</a></li>
+                    <li><a href="#">Service</a>
+                        <ul class="dropdown">
+                            <li><a href="../services/serviceone.html">Wedding Blooms</a></li>
+                            <li><a href="../services/service.two.html">Cake and Petals</a></li>
+                            <li><a href="../services/service.three.html">Tailored floral displays</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="../products/products.html">Product</a></li>
+                    <li><a href="../contact.us/contact.us.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section class="banner">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7962923.687389163!2d70.31001208615868!3d12.962486701719612!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1136218ea079%3A0xc6bf20ea89abad92!2sGoogle%20RMZ%20Infinity!5e0!3m2!1sen!2sin!4v1654971033964!5m2!1sen!2sin"
+                style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section> <!--google maps-->
+
+        <!-- content holder -->
+        <section class="content-holder">
+            <article class="content">
+                <main>
+                    <h1>The Beauty Shop</h1>
+                    <h3>Contact Us</h3>
+                    <p>We would love to hear from you! Here's how to get in touch with us:
+                    </p>
+
+                    <h5>Social Media:</h5>
+                    Follow us on Facebook and Instagram for updates and inspiration!
+                    <h5>Hours of Operation:</h5>
+                    Monday - Friday: 9:00am - 6:00pm
+                    Saturday: 9:00am - 5:00pm
+                    Sunday: Closed
+                    <h5>Online Orders:</h5>
+                    Visit our website to place an order online, 24/7.
+                    <h5>Delivery:</h5>
+                    We offer same-day delivery in the Anytown area for orders placed by 2:00pm. For delivery outside
+                    of Anytown, please call us for more information.
+                    If you have any questions or comments, please fill out the form below and we'll get back to you
+                    as soon as possible. Thank you for choosing <B>The Beauty Shop!</B>
+                    <br>
+
+                    <div class="contact-form">
+                        <form method="post">
+                            <table>
+                                <tr>
+                                    <td>Name</td>
+                                    <td><input type="text" name="c_name" required></td>
+                                </tr>
+                                <tr>
+                                    <td>Email</td>
+                                    <td><input type="email" name="c_email" required></td>
+                                </tr>
+                                <tr>
+                                    <td>Phone</td>
+                                    <td><input type="tel" name="c_tel" required></td>
+                                </tr>
+                                <tr>
+                                    <td>Subjectline</td>
+                                    <td><input type="text" name="c_sub" required></td>
+                                </tr>
+                                <tr>
+                                    <td>Message</td>
+                                    <td><textarea name="" id="" cols="30" rows="10"></textarea></td>
+                                </tr>
+                                <tr>
+                                    <td>submit</td>
+                                    <td><input type="submit" name="c_submit" value="Send"></td>
+                                    <!-- here the value will chage submit to send in viewport -->
+                                </tr>
+                            </table>
+                        </form>
+                    </div>
+
+                </main>
+            </article>
+
+            <aside class="sidebar">
+                <div>
+                    <h3>Widget</h3>
+                    <ul>
+                        <li><a href="#">2018</a></li>
+                        <li><a href="#">2019</a></li>
+                        <li><a href="#">2020</a></li>
+                    </ul>
+                </div>
+            </aside>
+            <div class="clearfix"></div>
+        </section>
+
+        <!-- aside bar is a whose content is only indirectly related to the document's main content -->
+
+        <footer class="main-footer">
+
+            <div class="footer-box">
+                <h3>Footer Menu</h3>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Service</a></li>
+                    <li><a href="#">Product</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-box">
+                <h3>Footer Menu</h3>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Service</a></li>
+                    <li><a href="#">Product</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-box">
+                <h3>Footer Menu</h3>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Service</a></li>
+                    <li><a href="#">Product</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-box">
+                <address>
+                    <h3>Company Name</h3>
+                    <p>#100 somewhere somewhere else,575019</p>
+                    <p>Email: <a href="mailto:rashmikulal831@gmail.com">rashmikulal831@gmail.com</a></p>
+                    <p>Ph: <a href="tel:8978789789">8978789789</a></p>
+                </address>
+            </div>
+
+            <div class="clearfix"></div>
+
+        </footer>
+
+        <div class="copy">
+            <p><small>Copyright &copy; All Rights Reserved.</small></p>
+        </div>
+    </div>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script src="http://malsup.github.com/jquery.cycle2.js"></script>
+
+</body>
+
+</html>
